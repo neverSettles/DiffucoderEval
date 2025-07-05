@@ -1,4 +1,21 @@
-# DiffuCoder-7B-cpGRPO Example
+# DiffuCoder-7B-cpGRPO Evaluation
+---------------------------------
+## Human written README
+---------------------------------
+This repository was created for the prupose of evaluating the efficacy and speed of Apple's recent DiffuCoder-7B-cpGRPO code generation model. 
+
+Result:
+With a single A100 (SXM4) machine on lambda labs, the empiracle evidence shows a speed of upwards of 25 tok / second in performance.
+
+The code snippets generated appear reasonably created, you can run `python diffucoder_example.py` to have it generate example outputs for your input prompt, along with a few sample prompts.
+
+The exact machine used was the following configuration on lambdalabs:
+1x A100 (40 GB SXM4)
+30 vCPUs, 200 GiB RAM, 0.5 TiB SSD
+
+---------------------------------
+## AI Generated README
+---------------------------------
 
 This repository contains example code for using Apple's **DiffuCoder-7B-cpGRPO** model, a diffusion-based large language model specifically designed for code generation.
 
